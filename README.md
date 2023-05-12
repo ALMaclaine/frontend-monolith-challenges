@@ -45,6 +45,8 @@ Focusing solely on the downsides of E2E testing for monolithic frontend applicat
 
 20. Cross-browser and cross-device testing: Monolithic frontend applications may present additional challenges when it comes to cross-browser and cross-device testing. The complexity of the application can make it harder to identify and resolve compatibility issues, potentially affecting the user experience on different platforms.
 
+21. Difficulty in enforcing ownership because of co-mingling of all artifacts
+
 To address these challenges, developers should consider adopting a balanced testing strategy that includes unit, integration, and E2E tests. Additionally, they may want to explore refactoring the monolithic frontend application into a more modular architecture, which can help reduce some of the complexities associated with E2E testing.
 
 ### Does adding e2e tests to a poorly architected app generally lead to that poor architecture being hardened
